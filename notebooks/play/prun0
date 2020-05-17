@@ -1,0 +1,164 @@
+         3984 function calls in 114.868 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  114.868  114.868 {built-in method builtins.exec}
+        1    0.000    0.000  114.868  114.868 <string>:2(<module>)
+       20    0.000    0.000  114.739    5.737 threading.py:534(wait)
+       20    0.000    0.000  114.739    5.737 threading.py:264(wait)
+      131  114.739    0.876  114.739    0.876 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000  114.734  114.734 pool.py:263(map)
+        1    0.000    0.000  114.734  114.734 pool.py:650(get)
+        1    0.000    0.000  114.734  114.734 pool.py:647(wait)
+        1    0.000    0.000    0.081    0.081 context.py:114(Pool)
+        1    0.000    0.000    0.081    0.081 pool.py:155(__init__)
+        1    0.000    0.000    0.079    0.079 pool.py:227(_repopulate_pool)
+        8    0.000    0.000    0.078    0.010 process.py:101(start)
+        8    0.000    0.000    0.068    0.008 context.py:274(_Popen)
+        8    0.000    0.000    0.068    0.008 popen_fork.py:16(__init__)
+        8    0.001    0.000    0.061    0.008 popen_fork.py:67(_launch)
+        8    0.059    0.007    0.059    0.007 {built-in method posix.fork}
+       10    0.000    0.000    0.053    0.005 util.py:170(__call__)
+        2    0.000    0.000    0.052    0.026 pool.py:571(_terminate_pool)
+        1    0.000    0.000    0.052    0.052 pool.py:622(__exit__)
+        1    0.000    0.000    0.052    0.052 pool.py:544(terminate)
+        2    0.000    0.000    0.049    0.025 pool.py:562(_help_stuff_finish)
+        2    0.049    0.025    0.049    0.025 {method 'acquire' of '_multiprocessing.SemLock' objects}
+        8    0.003    0.000    0.010    0.001 process.py:53(_cleanup)
+     1085    0.001    0.000    0.009    0.000 popen_fork.py:25(poll)
+     1069    0.009    0.000    0.009    0.000 {built-in method posix.waitpid}
+        8    0.000    0.000    0.007    0.001 util.py:398(_flush_std_streams)
+       16    0.000    0.000    0.006    0.000 iostream.py:336(flush)
+        1    0.000    0.000    0.003    0.003 process.py:133(join)
+        1    0.000    0.000    0.003    0.003 popen_fork.py:41(wait)
+        3    0.000    0.000    0.001    0.000 threading.py:834(start)
+       32    0.000    0.000    0.001    0.000 iostream.py:197(schedule)
+        8    0.000    0.000    0.001    0.000 pool.py:152(Process)
+        8    0.000    0.000    0.001    0.000 process.py:72(__init__)
+        1    0.000    0.000    0.001    0.001 pool.py:250(_setup_queues)
+        2    0.000    0.000    0.001    0.000 context.py:109(SimpleQueue)
+        9    0.000    0.000    0.001    0.000 util.py:151(__init__)
+        2    0.000    0.000    0.000    0.000 queues.py:330(__init__)
+       32    0.000    0.000    0.000    0.000 socket.py:342(send)
+        4    0.000    0.000    0.000    0.000 context.py:64(Lock)
+       20    0.000    0.000    0.000    0.000 {built-in method posix.close}
+        4    0.000    0.000    0.000    0.000 synchronize.py:161(__init__)
+        2    0.000    0.000    0.000    0.000 queues.py:356(put)
+        4    0.000    0.000    0.000    0.000 synchronize.py:50(__init__)
+       10    0.000    0.000    0.000    0.000 {built-in method posix.pipe}
+       52    0.000    0.000    0.000    0.000 threading.py:1092(is_alive)
+       20    0.000    0.000    0.000    0.000 threading.py:499(__init__)
+        1    0.000    0.000    0.000    0.000 pool.py:375(_map_async)
+        1    0.000    0.000    0.000    0.000 pool.py:676(__init__)
+        3    0.000    0.000    0.000    0.000 threading.py:763(__init__)
+        8    0.000    0.000    0.000    0.000 __init__.py:221(_releaseLock)
+       20    0.000    0.000    0.000    0.000 threading.py:216(__init__)
+        2    0.000    0.000    0.000    0.000 connection.py:181(send_bytes)
+        2    0.000    0.000    0.000    0.000 reduction.py:48(dumps)
+        4    0.000    0.000    0.000    0.000 __init__.py:8(_make_name)
+       26    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+       11    0.000    0.000    0.000    0.000 _weakrefset.py:81(add)
+       56    0.000    0.000    0.000    0.000 threading.py:1050(_wait_for_tstate_lock)
+        2    0.000    0.000    0.000    0.000 connection.py:390(_send_bytes)
+        4    0.000    0.000    0.000    0.000 tempfile.py:153(__next__)
+       16    0.000    0.000    0.000    0.000 process.py:215(exitcode)
+        2    0.000    0.000    0.000    0.000 reduction.py:38(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+        2    0.000    0.000    0.000    0.000 connection.py:506(Pipe)
+       12    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 tempfile.py:156(<listcomp>)
+       16    0.000    0.000    0.000    0.000 process.py:144(is_alive)
+       10    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+       40    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 connection.py:365(_send)
+       52    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+       32    0.000    0.000    0.000    0.000 random.py:256(choice)
+        2    0.000    0.000    0.000    0.000 {built-in method posix.write}
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1009(_handle_fromlist)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        8    0.000    0.000    0.000    0.000 process.py:119(terminate)
+       20    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        4    0.000    0.000    0.000    0.000 util.py:136(register_after_fork)
+       32    0.000    0.000    0.000    0.000 iostream.py:93(_event_pipe)
+        8    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+       19    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        8    0.000    0.000    0.000    0.000 popen_fork.py:61(terminate)
+       32    0.000    0.000    0.000    0.000 random.py:224(_randbelow)
+       60    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        4    0.000    0.000    0.000    0.000 weakref.py:165(__setitem__)
+        4    0.000    0.000    0.000    0.000 weakref.py:109(remove)
+       15    0.000    0.000    0.000    0.000 threading.py:1226(current_thread)
+        8    0.000    0.000    0.000    0.000 popen_fork.py:51(_send_signal)
+       16    0.000    0.000    0.000    0.000 process.py:85(<genexpr>)
+       20    0.000    0.000    0.000    0.000 threading.py:252(_acquire_restore)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.cpu_count}
+        4    0.000    0.000    0.000    0.000 connection.py:130(__del__)
+        6    0.000    0.000    0.000    0.000 threading.py:1012(join)
+       11    0.000    0.000    0.000    0.000 _weakrefset.py:38(_remove)
+        1    0.000    0.000    0.000    0.000 pool.py:631(__init__)
+       20    0.000    0.000    0.000    0.000 threading.py:243(__exit__)
+        8    0.000    0.000    0.000    0.000 {built-in method posix.kill}
+        8    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       27    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       63    0.000    0.000    0.000    0.000 threading.py:507(is_set)
+        3    0.000    0.000    0.000    0.000 threading.py:977(_stop)
+        2    0.000    0.000    0.000    0.000 synchronize.py:94(__enter__)
+        8    0.000    0.000    0.000    0.000 __init__.py:212(_acquireLock)
+       20    0.000    0.000    0.000    0.000 threading.py:240(__enter__)
+        8    0.000    0.000    0.000    0.000 process.py:184(name)
+        3    0.000    0.000    0.000    0.000 threading.py:728(_newname)
+       15    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 connection.py:360(_close)
+       30    0.000    0.000    0.000    0.000 util.py:48(debug)
+        4    0.000    0.000    0.000    0.000 tempfile.py:142(rng)
+       20    0.000    0.000    0.000    0.000 threading.py:255(_is_owned)
+        2    0.000    0.000    0.000    0.000 {method 'dump' of '_pickle.Pickler' objects}
+        4    0.000    0.000    0.000    0.000 weakref.py:336(__new__)
+        2    0.000    0.000    0.000    0.000 {method 'getbuffer' of '_io.BytesIO' objects}
+        4    0.000    0.000    0.000    0.000 connection.py:117(__init__)
+       50    0.000    0.000    0.000    0.000 process.py:90(_check_closed)
+       20    0.000    0.000    0.000    0.000 threading.py:249(_release_save)
+       23    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+       20    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+       47    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       32    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+       20    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        8    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 synchronize.py:90(_make_methods)
+        2    0.000    0.000    0.000    0.000 synchronize.py:97(__exit__)
+        4    0.000    0.000    0.000    0.000 weakref.py:341(__init__)
+       16    0.000    0.000    0.000    0.000 {built-in method _imp.lock_held}
+        2    0.000    0.000    0.000    0.000 {built-in method _struct.pack}
+        6    0.000    0.000    0.000    0.000 threading.py:1116(daemon)
+        3    0.000    0.000    0.000    0.000 threading.py:1132(daemon)
+        8    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+       15    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        8    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 connection.py:142(_check_writable)
+        2    0.000    0.000    0.000    0.000 {method '__enter__' of '_multiprocessing.SemLock' objects}
+        8    0.000    0.000    0.000    0.000 process.py:196(daemon)
+        1    0.000    0.000    0.000    0.000 {method 'put' of '_queue.SimpleQueue' objects}
+       54    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 pool.py:639(ready)
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_multiprocessing.SemLock' objects}
+       10    0.000    0.000    0.000    0.000 util.py:44(sub_debug)
+        8    0.000    0.000    0.000    0.000 {built-in method posix.WIFSIGNALED}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+        4    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x55b85de19260}
+        1    0.000    0.000    0.000    0.000 pool.py:619(__enter__)
+        2    0.000    0.000    0.000    0.000 connection.py:134(_check_closed)
+        6    0.000    0.000    0.000    0.000 context.py:186(get_context)
+        4    0.000    0.000    0.000    0.000 context.py:196(get_start_method)
+        1    0.000    0.000    0.000    0.000 context.py:232(get_context)
+        8    0.000    0.000    0.000    0.000 process.py:180(name)
+        1    0.000    0.000    0.000    0.000 process.py:225(ident)
+        3    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        8    0.000    0.000    0.000    0.000 {built-in method posix.WIFEXITED}
+        8    0.000    0.000    0.000    0.000 {built-in method posix.WEXITSTATUS}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}

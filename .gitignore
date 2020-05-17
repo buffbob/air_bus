@@ -46,5 +46,8 @@ docs/_build/*
 cover/*
 MANIFEST
 
+# Data
+data/*
+
 # Per-project virtualenvs
 .venv*/
