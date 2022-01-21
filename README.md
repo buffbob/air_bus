@@ -1,6 +1,6 @@
-<h1>air_bus</h1>
+<p>To read the jupyter notebook files it is best to use nbviewer as these files are way big. Open https://nbviewer.jupyter.org/ and put URL of file in the repository in the textfield as shown. Press Go button to view the notebook.</p>
 
-<hr>
+<h1>air_bus</h1>
 
 <h3>this is kaggle challenge</h3>
 <p>see <a href="https://www.kaggle.com/c/airbus-ship-detection">airbus</a> to get more details on the specifics of the competition.</p>
